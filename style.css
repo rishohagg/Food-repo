@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+font-family: 'Public Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+
+.spane{
+    color: goldenrod;
+}
+.top{
+    display: flex;
+}
+.click{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(to right, #FF512F 0%, #F09819  51%, #FF512F  100%));
+    color: white;
+    font-weight: 700;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.section1{
+margin-left: 5%;
+}
+.top-pic{
+margin-left: 20%;
+display: flex;
+}
+
+
+.section2{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+}
+.container{
+    position: relative;
+}
+#click2{
+    position: absolute;
+    top: 150%;
+}
+.recipes{
+    text-align: center;
+    color: gray;
+}
+#recipes{
+    color: red;
+}
+.cards{
+    width: 30%;
+    background-color: gray;
+    margin: 60px;
+}
+div img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.des{
+    text-align: center;
+}
