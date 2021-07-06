@@ -1,15 +1,12 @@
-*{
-    margin:0px;
-    padding: 0px;
-}
 
 body{
     margin: 0;
     font-family: 'Anton', sans-serif;
-font-family: 'Public Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    background-color: rgb(250, 250, 250);
 }
 h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .spane{
@@ -17,6 +14,8 @@ h1{
 }
 .top{
     display: flex;
+    margin-bottom: 40px;
+
 }
 .click{
     text-decoration: none;
@@ -26,13 +25,19 @@ h1{
     background-color: orange;
     padding: 10px 40px;
     border-radius: 7px;
+    position: absolute;
+    top: 45%;
+}
+.click2{
+    position: absolute;
+    top: 150%;
 }
 .section1{
-margin-left: 5%;
+    margin-left: 5%;
 }
 .top-pic{
-margin-left: 20%;
-display: flex;
+    margin-left: 20%;
+    display: flex;
 }
 
 
@@ -44,28 +49,69 @@ display: flex;
 .container{
     position: relative;
 }
-#click2{
-    position: absolute;
-    top: 150%;
-}
+
 .recipes{
     text-align: center;
     color: gray;
+    position: relative;
+    top: 20px;
+    
+    
 }
-#recipes{
+.recipes h1{
     color: red;
+    margin-left: 40px;
 }
-.cards{
-    width: 30%;
-    background-color: gray;
+.box{
+    width: 21%;
+    background-color: white;
     margin: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px black;
+    padding: 20px;
+    display: inline-block;
 }
 div img{
     width: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 .title{
     text-align: center;
+    padding: 5px
+
 }
-.des{
+.descrip{
     text-align: center;
+}
+.title,.des{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last-section{
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    
+}
+.last-text{
+    display: inline-block;
+    margin: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-weight:400;
+}
+#food{
+    color: goldenrod;
+   
+}
+#foter{
+    text-align: center;
+    background-color: rgb(29, 21, 21);
+    padding-bottom: 20px;
+    color:white
+    
 }
